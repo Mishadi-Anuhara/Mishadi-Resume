@@ -201,6 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 }
 #about img {
 	float: right;
+	height: 200px
 }
 #about p {
 	margin-bottom: 30px;
@@ -224,6 +225,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	margin-left: 20px;
 
 }
+
 .skills-bar p
 {
 	margin-bottom: 6px;
@@ -310,6 +312,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 .projects h2
 {
 	margin-bottom: 20px;
+
 }
 /* Style the tab */
 .tab {
@@ -350,10 +353,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	border: 1px solid #ccc;
 	width: 70%;
 	border-left: none;
-	height: 300px;
 	display: none;
+	font-weight: bold;
   }
-  
 
 
 /* Contact Section */
