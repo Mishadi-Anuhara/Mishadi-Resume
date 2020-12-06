@@ -66,7 +66,7 @@
       <div class="row">
         <div class="intro-text">
           <h1>Mishadi Anuhara Jayaratne</h1>
-          <p>Undergraduate</p>
+          <p>Undergraduate at University of Sri Jayawardenepura</p>
           <a href="#about" class="btn btn-custom btn-lg page-scroll">Learn More</a> </div>
       </div>
     </div>
@@ -83,8 +83,12 @@
       <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <p>I am a self motivated hardworking and creative individual who likes challenges.I have a great passion for computer Science, Mathematics and Problem solving.I am able to work well in a team environments as well as an individual.</p>
-          <a href="#My Resume" class="btn btn-default btn-lg page-scroll">My Resume</a> </div>
+          <p>I am a self motivated hardworking and creative individual who likes challenges.I have a great passion for computer Science and Mathematics.I am able to work well in a team environments as well as an individual.</p>
+          <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> My Resume</button> </div>
       </div>
     </div>
   </div>
@@ -156,7 +160,7 @@
                 <li>
                   <h4><span>Nov 2017 - Present</span></h4>
                   <b></b>Bachelor of Science <br>
-                  <b></b>University of Sri Jayawardebnepura <br>
+                  <b></b>University of Sri Jayawardenepura <br>
                 </li>
                 <li>
                   <h4><span>Jan 2017 - Present</span></h4>
@@ -193,10 +197,43 @@
 
       </div>
       
-                <br><br><br><br>
+                <br><br><br>
               
+      <!--Projects-->
+      <div class="Projects" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-14">
+              <h2 class="text-corner">Projects</h2>
+      <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'London')">Grocery Management System (2018)</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Paris')">Mathematical Modeling (2019)</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Consumer Preference for Clothing Design (present)</button>
+      </div>
       
-            
+      <div id="London" class="tabcontent">
+        <h3>Grocery Management System (2018)</h3>
+        <p>Menu driven program that facilitates activities of a grocery shop.</p>
+          <p>Technologies: C, Codeblocks</p>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+        <h3>Mathematical Modeling (2019)</h3>
+        <p>Developed a mathematical model for the scorpion population growth in currently maintained scorpion venom
+          collecting farms using logistic model with harvesting and calculate maximum sustainable yield and suggest
+          improvements</p>
+          <p>Technologies: MATLAB</p>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Consumer Preference for Clothing Design (present)</h3>
+        <p>Program that predicts whether a clothing design will be a hit or not.</p>
+        <p>Technologies: Python, Google Colabs</p>
+      </div>
+      
+
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">
@@ -227,14 +264,7 @@
         <div id="success"></div>
         <button type="submit" class="btn btn-default btn-lg">Send Message</button>
       </form>
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance"></i></a></li>
-        </ul>
-      </div>
+
     </div>
   </div>
 </div>
@@ -253,5 +283,6 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/projects.js"></script>
 </body>
 </html>
